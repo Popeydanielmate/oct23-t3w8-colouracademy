@@ -13,14 +13,12 @@
 
 - Base Colour
     - Hex colour of new theme
-- Localstorage manager for list of CSS themes
-    - Array of theme lists
-- Localstorage manager for current CSS theme
-    - One theme list
+- Current CSS theme
+	- one theme list 
+	- localstorage 
 - List of CSS themes
-    - Array of theme lists
-- Current CSS Theme
-    - One theme list
+	- array of theme list
+	- localstorage 
 
 ## Data 
 
