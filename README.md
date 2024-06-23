@@ -11,9 +11,33 @@
 
 ## Contexts
 
-- Localstorage for list of colours/themes
+- Localstorage manager for list of CSS themes
+    - Array of theme lists
 - Localstorage manager for current CSS theme
+    - One theme list
 - List of CSS themes
+    - Array of theme lists
 - CSS Themes / list of colours
+    - One theme list
 
 ## Data 
+
+### Colour object
+
+```js
+{
+    hex: "#00000",
+    strength: 100,
+    rgba: [255, 255, 255, 255]
+}
+```
+### Theme list
+
+```js
+{
+    name: "violet eggplant"
+    colours: [
+        Colour Objects go here
+    ]
+}
+```
