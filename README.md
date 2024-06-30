@@ -1,5 +1,12 @@
 # Colour Academy - CSS Variable Generator Website
 
+- CSS variable export (high priority)
+- save themes to a list of themes (medium priority)
+- preview components like UI Colours (nice-to-have)
+- Dark/light mode toggle in global context 
+- Deploy
+	- show the thing that Netlify needs to make React Router work 
+
 ## Routes
 
 - "/" : Homepage
