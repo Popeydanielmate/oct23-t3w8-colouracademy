@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "../styles/Header.css";
 
 
 export default function Header(){
@@ -11,7 +12,7 @@ export default function Header(){
 			<nav id="headerNavbar">
 				<NavLink to={"/"} >Home</NavLink>
 				<NavLink to={"/generator"} >Generator</NavLink>
-				<NavLink to={"/generator/saved"} >Saved Themes</NavLink>
+				{/* <NavLink to={"/generator/saved"} >Saved Themes</NavLink> */}
 			</nav>
 		</header>
 	)
